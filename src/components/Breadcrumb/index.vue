@@ -26,11 +26,14 @@ export default {
   },
   methods: {
     getBreadcrumb() {
+      console.log("matched:"+this.$route.matched[0].name+"   "+this.$route.matched[1].name);
+
       let matched = this.$route.matched.filter(item => item.name)
-      const first = matched[0]
-      if (first && first.name !== 'dashboard') {
-        matched = [{ path: '/dashboard', meta: { title: 'Dashboard' }}].concat(matched)
-      }
+      /*const first = matched[0]
+      if (first && first.name !== 'userinfo') {
+        matched = [{ path: '/userinfo', meta: { title: 'userinfo' }}].concat(matched)
+      }*/
+      console.log("matched:"+matched[0].name+ "   "+matched.length);
       this.levelList = matched
     }
   }

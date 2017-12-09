@@ -1,0 +1,19 @@
+{
+  "role": [
+    "admin"
+  ],
+  "loginid": "admin",
+  "name": "刘凯",
+  "mobile": "18511536230",
+  "mail": "liu-kevin@foxmail.com",
+  "avatar": "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif",
+  "menus": [
+    "/userinfo",
+    "/example",
+    "/example/table",
+    "/example/tree",
+    "/form",
+    "/form/index"
+  ]
+}
+

@@ -1,9 +1,9 @@
 {
-  "name": "vue-admin-template",
+  "name": "kanche-backend-manage",
   "version": "3.0.0",
   "license": "MIT",
-  "description": "A vue admin template with Element UI & axios & iconfont & permission control & lint",
-  "author": "Pan <panfree23@gmail.com>",
+  "description": "A vue backend-manage with Element UI & axios & iconfont & permission control & lint",
+  "author": "liu-kevin <liukai01@yxqiche.com>",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",

@@ -15,13 +15,15 @@ export default {
   components: { SidebarItem, ScrollBar },
   computed: {
     ...mapGetters([
-      'sidebar'
+      'routers'
     ]),
     routes() {
-      return this.$router.options.routes
+      //return this.$router.options.routes
+      return this.$store.getters.routers;
     },
+    //true 表示菜单向右展开，false向下展开
     isCollapse() {
-      return !this.sidebar.opened
+      return !this.$store.getters.sidebar.opened
     }
   }
 }
