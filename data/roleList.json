@@ -1,0 +1,61 @@
+[
+  {
+    "id":1,
+    "title": "example",
+    "name": "例子",
+    "desc": "示例",
+    "status": "VALID",
+    "addUser":"ADMIN",
+    "moduleIds":[1],
+    "moduleNames":["用户管理","角色管理","模块管理"],
+    "addTime":"2017-11-12 12:00:00",
+    "updateTime":"2017-11-12 12:00:10"
+  },
+  {
+    "id":2,
+    "title": "module",
+    "name": "权限管理",
+    "desc": "权限管理",
+    "status": "VALID",
+    "addUser":"ADMIN",
+    "moduleIds":[1],
+    "moduleNames":["用户管理","角色管理","模块管理"],
+    "addTime":"2017-11-12 12:00:00",
+    "updateTime":"2017-11-12 12:00:10"
+  },
+  {
+    "id":3,
+    "title": "module_role",
+    "desc": "角色",
+    "status": "VALID",
+    "addUser":"ADMIN",
+    "moduleIds":[3],
+    "moduleNames":["用户管理","角色管理","模块管理"],
+    "addTime":"2017-11-12 12:00:00",
+    "updateTime":"2017-11-12 12:00:10"
+  },
+  {
+    "id":4,
+    "title": "module_user",
+    "path": "/permission/user/index",
+    "desc": "用户",
+    "status": "INVALID",
+    "addUser":"ADMIN",
+    "moduleIds":[4],
+    "moduleNames":["用户管理","角色管理","模块管理"],
+    "addTime":"2017-11-12 12:00:00",
+    "updateTime":"2017-11-12 12:00:10"
+  },
+  {
+    "id":5,
+    "title": "module_module",
+    "path": "/permission/module/index",
+    "desc": "模块",
+    "status": "VALID",
+    "addUser":"ADMIN",
+    "moduleIds":[2],
+    "moduleNames":["用户管理","角色管理","模块管理"],
+    "addTime":"2017-11-12 12:00:00",
+    "updateTime":"2017-11-12 12:00:10"
+  }
+]

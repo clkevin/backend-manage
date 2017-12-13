@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="365d48c6-cd8e-4e66-a77f-9ac3e8b28efc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/module.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/api/permission/module.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/permission/module/index.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/permission/module/module_form.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/permission/module/module_tree.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/tree/tree_list.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/apiData/login.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/test.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/roleList.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/api/permission/role.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/permission/role/index.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/apiData/permission/module/list" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/apiData/table/exampleList.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/apiData/user/login.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/apiData/user/logout.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/apiData/user/userinfo.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/build/dev-api-tools.js" afterPath="$PROJECT_DIR$/build/dev-api-tools.js" />
-      <change beforePath="$PROJECT_DIR$/data/userinfo.json" afterPath="$PROJECT_DIR$/data/userinfo.json" />
       <change beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/store/modules/permission.js" afterPath="$PROJECT_DIR$/src/store/modules/permission.js" />
-      <change beforePath="$PROJECT_DIR$/src/views/table/index.vue" afterPath="$PROJECT_DIR$/src/views/table/index.vue" />
+      <change beforePath="$PROJECT_DIR$/src/views/permission/module/module_tree.vue" afterPath="$PROJECT_DIR$/src/views/permission/module/module_tree.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,35 +26,92 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/permission/role/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="209" column="52" lean-forward="true" selection-start-line="208" selection-start-column="8" selection-end-line="209" selection-end-column="52" />
+              <folding>
+                <element signature="e#33#39#0" expanded="true" />
+                <element signature="e#39#45#0" expanded="true" />
+                <element signature="e#45#51#0" expanded="true" />
+                <element signature="e#51#57#0" expanded="true" />
+                <element signature="e#3585#3591#0" expanded="true" />
+                <element signature="e#3591#3597#0" expanded="true" />
+                <element signature="e#3597#3603#0" expanded="true" />
+                <element signature="e#3609#3615#0" expanded="true" />
+                <element signature="e#3744#3792#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module_tree.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/permission/module/module_tree.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1448">
+              <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#el-popover#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#555#561#1" expanded="true" />
+                <element signature="e#574#580#0" expanded="true" />
+                <element signature="e#580#586#0" expanded="true" />
+                <element signature="e#586#592#0" expanded="true" />
+                <element signature="e#592#598#0" expanded="true" />
+                <element signature="e#598#604#0" expanded="true" />
+                <element signature="n#style#0;n#el-tree#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dev-api-tools.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/dev-api-tools.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roleList.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/roleList.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="role.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/permission/role.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>filterAsyncRouter</find>
-      <find>fetchData</find>
-      <find>listQuery</find>
-      <find>statusFilter</find>
-      <find>delete</find>
-      <find>hidden</find>
-      <find>/permission/module</find>
-      <find>store</find>
-      <find>tmp</find>
-      <find>area</find>
-      <find>toupdate</find>
       <find>readonly</find>
       <find>Utils</find>
       <find>slot-scope</find>
-      <find>path</find>
-      <find>+</find>
-      <find>module</find>
       <find>isUpdate</find>
       <find>defaultProps</find>
       <find>none</find>
@@ -70,7 +125,25 @@
       <find>insertTofront</find>
       <find>console</find>
       <find>titleReadOnly</find>
+      <find>delDialogStyle</find>
+      <find>path</find>
+      <find>+</find>
+      <find>tmp_object</find>
+      <find>module</find>
+      <find>'</find>
+      <find>delete</find>
+      <find>&amp;nbsp;&amp;nbsp;</find>
+      <find>show-checkboxshow-checkbox</find>
+      <find>setCheckedNodes</find>
+      <find>module_tree</find>
+      <find>defaultCheckedKeys</find>
+      <find>dialogDeleteVisible</find>
+      <find>moduls</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;</replace>
+      <replace>module</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/views</dir>
     </dirStrings>
@@ -115,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/views/permission/user/index.vue" />
         <option value="$PROJECT_DIR$/src/views/table/index.vue" />
         <option value="$PROJECT_DIR$/data/login.json" />
-        <option value="$PROJECT_DIR$/build/dev-api-tools.js" />
         <option value="$PROJECT_DIR$/src/api/permission/module.js" />
         <option value="$PROJECT_DIR$/src/views/permission/module/module_form.vue" />
         <option value="$PROJECT_DIR$/src/store/modules/permission.js" />
@@ -127,9 +199,13 @@
         <option value="$PROJECT_DIR$/src/views/tree/tree.vue" />
         <option value="$PROJECT_DIR$/data/userinfo.json" />
         <option value="$PROJECT_DIR$/src/views/tree/tree_list.vue" />
-        <option value="$PROJECT_DIR$/src/router/index.js" />
         <option value="$PROJECT_DIR$/data/module.json" />
         <option value="$PROJECT_DIR$/src/views/permission/module/module_tree.vue" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
+        <option value="$PROJECT_DIR$/build/dev-api-tools.js" />
+        <option value="$PROJECT_DIR$/src/api/permission/role.js" />
+        <option value="$PROJECT_DIR$/data/roleList.json" />
+        <option value="$PROJECT_DIR$/src/views/permission/role/index.vue" />
       </list>
     </option>
   </component>
@@ -177,12 +253,35 @@
             <path>
               <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
@@ -211,12 +310,60 @@
               <item name="permission" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="role" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="apiData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="apiData" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="apiData" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="apiData" type="462c0819:PsiDirectoryNode" />
+              <item name="table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kanche-backend-manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kanche-backend-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="apiData" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,15 +376,18 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/liukai/workspace/frontProject/kanche-backend-manage/data/module.json" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/views/permission/module" />
-      <recent name="$PROJECT_DIR$/data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/static/apiData/user" />
+      <recent name="$PROJECT_DIR$/src/views/permission/role" />
       <recent name="$PROJECT_DIR$/src/views/tree" />
       <recent name="$PROJECT_DIR$/src/views/permission/module" />
-      <recent name="$PROJECT_DIR$/static/apiData" />
-      <recent name="$PROJECT_DIR$/src/store/modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/apiData/permission/module" />
+      <recent name="$PROJECT_DIR$/static/apiData/table" />
+      <recent name="$PROJECT_DIR$/src/views/permission/module" />
+      <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,25 +443,26 @@
       <workItem from="1512978997396" duration="7322000" />
       <workItem from="1513003303575" duration="4456000" />
       <workItem from="1513042017089" duration="22552000" />
+      <workItem from="1513128663217" duration="8877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78345000" />
+    <option name="totallyTimeSpent" value="87222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3700121" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3083434" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -320,6 +471,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -334,8 +486,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/views/permission/module/module_tree.vue</url>
-          <line>132</line>
-          <properties lambdaOrdinal="-1" />
+          <line>137</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -344,42 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/prod.env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Breadcrumb/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -497,14 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/dev-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/dev.env.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -520,24 +627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/login.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/logout.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/permission/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -572,19 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/dev-api-tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/getters.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,15 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="61" column="8" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="61" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/module.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="56" column="3" lean-forward="false" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,25 +719,6 @@
         <state relative-caret-position="165">
           <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/permission/module/module_tree.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="190" column="0" lean-forward="true" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-popover#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#el-popover#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#578#584#1" expanded="true" />
-            <element signature="e#597#603#0" expanded="true" />
-            <element signature="e#603#609#0" expanded="true" />
-            <element signature="e#609#615#0" expanded="true" />
-            <element signature="e#615#621#0" expanded="true" />
-            <element signature="e#621#627#0" expanded="true" />
-            <element signature="n#style#0;n#el-tree#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,24 +742,134 @@
         <state relative-caret-position="211">
           <caret line="70" column="54" lean-forward="false" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
           <folding>
-            <element signature="n#style#0;n#el-table-column#6;n#el-table#0;n#p#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-table-column#7;n#el-table#0;n#p#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-form#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#3989#3995#0" expanded="true" />
-            <element signature="e#3995#4001#0" expanded="true" />
-            <element signature="e#4001#4007#0" expanded="true" />
-            <element signature="e#4007#4013#0" expanded="true" />
-            <element signature="e#4013#4019#0" expanded="true" />
-            <element signature="e#4019#4025#0" expanded="true" />
+            <element signature="n#style#0;n#el-table-column#6;n#el-table#0;n#p#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#el-table-column#7;n#el-table#0;n#p#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#el-form#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#3989#3995#0" expanded="false" />
+            <element signature="e#3995#4001#0" expanded="false" />
+            <element signature="e#4001#4007#0" expanded="false" />
+            <element signature="e#4007#4013#0" expanded="false" />
+            <element signature="e#4013#4019#0" expanded="false" />
+            <element signature="e#4019#4025#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="122" column="57" lean-forward="false" selection-start-line="122" selection-start-column="57" selection-end-line="122" selection-end-column="57" />
+        <state relative-caret-position="189">
+          <caret line="109" column="38" lean-forward="false" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/apiData/table/exampleList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/login.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/module.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/permission/role.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev-api-tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/permission/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/roleList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/permission/module/module_tree.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1448">
+          <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#el-popover#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#555#561#1" expanded="true" />
+            <element signature="e#574#580#0" expanded="true" />
+            <element signature="e#580#586#0" expanded="true" />
+            <element signature="e#586#592#0" expanded="true" />
+            <element signature="e#592#598#0" expanded="true" />
+            <element signature="e#598#604#0" expanded="true" />
+            <element signature="n#style#0;n#el-tree#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/permission/role/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="209" column="52" lean-forward="true" selection-start-line="208" selection-start-column="8" selection-end-line="209" selection-end-column="52" />
+          <folding>
+            <element signature="e#33#39#0" expanded="true" />
+            <element signature="e#39#45#0" expanded="true" />
+            <element signature="e#45#51#0" expanded="true" />
+            <element signature="e#51#57#0" expanded="true" />
+            <element signature="e#3585#3591#0" expanded="true" />
+            <element signature="e#3591#3597#0" expanded="true" />
+            <element signature="e#3597#3603#0" expanded="true" />
+            <element signature="e#3609#3615#0" expanded="true" />
+            <element signature="e#3744#3792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

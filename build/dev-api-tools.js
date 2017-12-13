@@ -57,6 +57,16 @@ module.exports = apiTools = {
     });
     app.use('/api/data', apiRoutes);
 
+    var roleListData = require("../data/roleList.json");
+    apiRoutes.get('/permission/role/list', function (req, res) {
+      res.json({
+        code: 20000,
+        errMessage:"SUCCESS",
+        data:roleListData
+      });
+    });
+    app.use('/api/data', apiRoutes);
+
     //end
 
 

@@ -113,7 +113,7 @@ export const asyncRouterMap = [
       {
         path: 'role',
         name: '角色管理',
-        component: _import('form/index'),
+        component: _import('permission/role/index'),
         meta: {title: '角色管理', icon: 'user'}
       },
       {

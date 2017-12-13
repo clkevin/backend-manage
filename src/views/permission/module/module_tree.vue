@@ -8,7 +8,7 @@
         placement="top"
         width="160"
         v-model="visible"
-        style="position:relative;left: 760px;top:20px"
+        :style="delDialogStyle"
       >
         <p>是否确认删除？</p>
         <div style="text-align: right; margin: 0;">
@@ -25,7 +25,7 @@
       <el-button @click="toForm('insertToEnd')">在"{{nodeName}}"后新增节点</el-button>
       <el-button @click="toForm('look')">查看"{{nodeName}}"</el-button>
       <el-button @click="toForm('update')">修改"{{nodeName}}"</el-button>
-      <el-button @click="visible=true">删除"{{nodeName}}"</el-button>
+      <el-button @click="displayDel">删除"{{nodeName}}"</el-button>
     </div>
     <!--tree-->
     <div>
@@ -95,6 +95,11 @@
           status: '',
           statusDisabled: false,
           position: 0//1-前 2-后
+        },
+        delDialogStyle:{
+          position:'relative',
+          left: '760px',
+          top:'60px'
         }
       };
     },
@@ -179,8 +184,16 @@
         //this.$router.go("/permission/module")
         this.init();
       },
-      remove() {
+      displayDel(event){
+        console.log(event.clientX+"   "+(event.clientX-50)+'px')
+        this.visible=true;
+        this.delDialogStyle.left=(event.clientX-150)+'px'
+
+      },
+      remove(event) {
         this.visible = false;
+        //this.delDialogStyle.left='100px';
+        //console.log("this.delDialogStyle.left:"+this.delDialogStyle.left)
         //todo
         //this.$router.go("/permission/module")
         this.init();
