@@ -12,6 +12,8 @@ module.exports = apiTools = {
     //添加本地测试数据 begin
     //login begin
     var apiRoutes = express.Router();
+
+
     var loginData = require('../data/login.json');
     apiRoutes.post('/user/login', function (req, res) {
       res.json({
@@ -45,7 +47,14 @@ module.exports = apiTools = {
         data:exampleListData
       });
     });
-
+    var moduleListData = require("../data/module.json");
+    apiRoutes.get('/permission/module/list', function (req, res) {
+      res.json({
+        code: 20000,
+        errMessage:"SUCCESS",
+        data:moduleListData
+      });
+    });
     app.use('/api/data', apiRoutes);
 
     //end

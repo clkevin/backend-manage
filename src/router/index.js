@@ -25,6 +25,7 @@ export const constantRouterMap = [
   {
     path: '/',
     component: Layout,
+    hidden: true,
     redirect: '/userinfo'/*,
     name: '用戶信息',
     hidden: true,
@@ -37,7 +38,8 @@ export const constantRouterMap = [
     path: '/userinfo',
     component: Layout,
     redirect: '/userinfo/index',
-    name: '用户信息',
+    //name: '用户信息',
+    hidden: true,
     noDropdown: true,
     children: [
       {
@@ -49,9 +51,9 @@ export const constantRouterMap = [
     ]
   },
 
-/*
-  {path: '*', redirect: '/404', hidden: true}
-*/
+  /*
+    {path: '*', redirect: '/404', hidden: true}
+  */
 ]
 
 export default new Router({
@@ -66,19 +68,19 @@ export const asyncRouterMap = [
     component: Layout,
     redirect: '/example/table',
     name: '菜单示例1',
-    meta: { title: '菜单示例1', icon: 'example' },
+    meta: {title: '菜单示例1', icon: 'example'},
     children: [
       {
         path: 'table',
         name: '表格',
         component: _import('table/index'),
-        meta: { title: '表格', icon: 'table' }
+        meta: {title: '表格', icon: 'table'}
       },
       {
         path: 'tree',
         name: '树',
         component: _import('tree/index'),
-        meta: { title: '树', icon: 'tree' }
+        meta: {title: '树', icon: 'tree'}
       }
     ]
   },
@@ -91,7 +93,41 @@ export const asyncRouterMap = [
         path: 'index',
         name: '表单示例',
         component: _import('form/index'),
-        meta: { title: '表单示例', icon: 'form' }
+        meta: {title: '表单示例', icon: 'form'}
+      }
+    ]
+  },
+  {
+    path: '/permission',
+    name: "权限管理",
+    redirect: "/permission/user",
+    component: Layout,
+    meta: {title: "权限管理", icon: "user"},
+    children: [
+      {
+        path: 'user',
+        name: '用户管理',
+        component: _import('form/index'),
+        meta: {title: '用户管理', icon: 'user'}
+      },
+      {
+        path: 'role',
+        name: '角色管理',
+        component: _import('form/index'),
+        meta: {title: '角色管理', icon: 'user'}
+      },
+      {
+        path: 'module',
+        name: '模块管理',
+        //component: _import('permission/module/index'),
+        component: _import('permission/module/module_tree'),
+        meta: {title: '模块管理', icon: 'user'}
+      },
+      {
+        path: 'tree',
+        name: '树管理',
+        component: _import('tree/tree_list'),
+        meta: {title: '树管理', icon: 'user'}
       }
     ]
   }

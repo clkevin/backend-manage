@@ -15,7 +15,7 @@ function hasPermission(menus, route, parentPath) {
       }
       path = parentPath + path;
     }
-    console.log("menu:" + menu + "   path:" + path + "   " + parentPath)
+    console.log("menu:" + menu + "   path:" + path + "   " + parentPath+"   "+(menu === path))
 
     if (menu === path) {
       return true;
@@ -35,6 +35,9 @@ function filterAsyncRouter(asyncRouterMap, menus, parentPath) {
     if (hasPermission(menus, route, parentPath_tmp)) {
       if (route.children && route.children.length) {
         if (parentPath_tmp) {
+          if (!parentPath.endsWith("/") && !route.path.startsWith("/")) {
+            parentPath_tmp = parentPath_tmp + "/";
+          }
           parentPath_tmp = parentPath_tmp + route.path;
         } else {
           parentPath_tmp = route.path;

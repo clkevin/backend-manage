@@ -13,7 +13,14 @@
     "/example/table",
     "/example/tree",
     "/form",
-    "/form/index"
+    "/form/index",
+    "/permission",
+    "/permission/user",
+    "/permission/role",
+    "/permission/module",
+    "/permission/module/add",
+    "/permission/module/index",
+    "/permission/tree"
   ]
 }
 
