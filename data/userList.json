@@ -1,0 +1,52 @@
+[
+  {
+    "id":1,
+    "loginid": "zhangsan",
+    "name": "张三",
+    "desc": "示例",
+    "status": "VALID",
+    "addUser":"ADMIN",
+    "addTime":"2017-11-12 12:00:00",
+    "updateTime":"2017-11-12 12:00:10"
+  },
+  {
+    "id":2,
+    "loginid": "lisi",
+    "name": "李四",
+    "desc": "李四",
+    "status": "VALID",
+    "addUser":"ADMIN",
+    "addTime":"2017-11-12 12:00:00",
+    "updateTime":"2017-11-12 12:00:10"
+  },
+  {
+    "id":3,
+    "loginid": "xiaoming",
+    "name":"小明",
+    "desc": "小明",
+    "status": "VALID",
+    "addUser":"ADMIN",
+    "addTime":"2017-11-12 12:00:00",
+    "updateTime":"2017-11-12 12:00:10"
+  },
+  {
+    "id":4,
+    "loginid": "wangwu",
+    "name": "王五",
+    "desc": "王五",
+    "status": "INVALID",
+    "addUser":"ADMIN",
+    "addTime":"2017-11-12 12:00:00",
+    "updateTime":"2017-11-12 12:00:10"
+  },
+  {
+    "id":5,
+    "loginid": "zhaoliu",
+    "name": "赵六",
+    "desc": "模块",
+    "status": "VALID",
+    "addUser":"ADMIN",
+    "addTime":"2017-11-12 12:00:00",
+    "updateTime":"2017-11-12 12:00:10"
+  }
+]

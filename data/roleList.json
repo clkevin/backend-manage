@@ -26,6 +26,7 @@
   {
     "id":3,
     "title": "module_role",
+    "name": "角色",
     "desc": "角色",
     "status": "VALID",
     "addUser":"ADMIN",
@@ -37,6 +38,7 @@
   {
     "id":4,
     "title": "module_user",
+    "name": "用户",
     "path": "/permission/user/index",
     "desc": "用户",
     "status": "INVALID",
@@ -49,6 +51,7 @@
   {
     "id":5,
     "title": "module_module",
+    "name": "模块",
     "path": "/permission/module/index",
     "desc": "模块",
     "status": "VALID",

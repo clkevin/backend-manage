@@ -67,6 +67,15 @@ module.exports = apiTools = {
     });
     app.use('/api/data', apiRoutes);
 
+    var userListData = require("../data/userList.json");
+    apiRoutes.get('/permission/user/list', function (req, res) {
+      res.json({
+        code: 20000,
+        errMessage:"SUCCESS",
+        data:userListData
+      });
+    });
+    app.use('/api/data', apiRoutes);
     //end
 
 
